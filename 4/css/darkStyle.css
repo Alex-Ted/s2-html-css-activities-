@@ -1,0 +1,39 @@
+/* dark table styles */
+/*Add the necessary styling to make it simlar to the given table*/
+body {
+	color:white;
+	
+}
+
+table.dark {
+	font-family: Arial, Helvetica, sans-serif;
+	border: 1px solid #1a1a1a;}
+	
+table.dark th {
+	border-bottom:1px solid #000;
+	text-align: left;
+	text-transform: uppercase;
+	font-family: Arial, Helvetica, sans-serif;
+	margin: auto;
+	padding-left: 5px;
+	font-size: smaller;
+	font-weight: bolder;
+}
+
+table.dark td {
+	font-family: Arial, Helvetica, sans-serif;
+	border-right:1px solid #1a1a1a;
+	color:#7b7d7c;
+	padding-bottom:  10px;
+	padding-left: 5px;
+	
+}	
+
+table.dark h4 {
+	font-weight:normal;
+	font-family: Arial, Helvetica, sans-serif;
+	color: white; 
+	margin: auto;
+	padding-top: 10px;
+	padding-bottom: 5px;
+}
